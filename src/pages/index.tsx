@@ -8,16 +8,6 @@ interface ApiDataContextType {
   data: ApiData | null;
 }
 
-// export default function HomePage({ data }: ApiDataContextType) {
-//   const { setGlobalData, globalData } = useApiDataContext();
-
-//   useEffect(() => {
-//     setGlobalData(data);
-//   }, [data, setGlobalData]);
-
-//   return globalData && globalData.isB ? <Home /> : <ApiComp />;
-// }
-
 export default function HomePage({ data }: ApiDataContextType) {
   const { setGlobalData, globalData } = useApiDataContext();
 
@@ -25,7 +15,7 @@ export default function HomePage({ data }: ApiDataContextType) {
     setGlobalData(data);
   }, [data, setGlobalData]);
 
-  return <Home />;
+  return globalData && globalData.isB ? <Home /> : <ApiComp />;
 }
 
 const domain = 'https://m.better-mpg.com';
