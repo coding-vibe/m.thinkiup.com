@@ -57,5 +57,4 @@ export const outletMargin = (theme: Theme) => css`
 
 export const sectionWithBackgroundImage = css`
   position: relative;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); */
 `;
