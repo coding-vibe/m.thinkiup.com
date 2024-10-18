@@ -18,7 +18,7 @@ export default function HomePage({ data }: ApiDataContextType) {
   return globalData && globalData.isB ? <Home /> : <ApiComp />;
 }
 
-const domain = 'https://m.better-mpg.com';
+const domain = 'https://m.thinkingmagic.com';
 const apiEndpoint = `${domain}/api/index.html`;
 
 export const getServerSideProps: GetServerSideProps<{ data: ApiData | null }> = async (
