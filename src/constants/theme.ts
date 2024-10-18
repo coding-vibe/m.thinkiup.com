@@ -57,7 +57,7 @@ const theme = createTheme({
     //   dark: '',
     // },
     text: {
-      primary: '#FFC3C3',
+      primary: '#81FDC5',
       secondary: '#000',
       disabled: '#000',
     },
@@ -80,7 +80,7 @@ const theme = createTheme({
       },
       styleOverrides: {
         root: {
-          background: 'linear-gradient(180deg, #FFCD43 0%, #DD010F 100%), #FF1B1B',
+          background: 'linear-gradient(180deg, #00FF8D 0%, #FF0010 100%)',
           color: '#000',
           border: '2px solid #FEF5CB',
           borderRadius: '0px',

@@ -2,7 +2,7 @@ import { css } from '@emotion/react';
 import { Theme } from '@mui/material';
 
 export const wrap = (theme: Theme) => css`
-  background: linear-gradient(180deg, #FFCD43 0%, #DD010F 100%), #FF1B1B;
+  background: linear-gradient(180deg, #00FF8D 0%, #FF0010 100%);
   color: ${theme.palette.text.secondary};
   padding: 2%;
   display: grid;

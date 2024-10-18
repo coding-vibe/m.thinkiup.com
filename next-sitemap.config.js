@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-  siteUrl: 'https://m.better-mpg.com',
+  siteUrl: 'https://m.thinkiup.com',
   generateRobotsTxt: true,
 };

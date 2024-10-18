@@ -28,7 +28,7 @@ export const modal = (theme: Theme) => css`
   }
   .MuiPaper-root {
     padding: 50px 30px;
-    background: linear-gradient(180deg, #F00 0%, #150000 96%);
+    background: linear-gradient(180deg, #00FF8D 0%, #FF0010 100%);
     display: flex;
     flex-direction: column;
     gap: 20px;

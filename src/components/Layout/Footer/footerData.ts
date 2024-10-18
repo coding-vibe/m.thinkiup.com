@@ -42,12 +42,12 @@ export const footer: Footer = {
     contacts: [
       {
         icon: PhoneIcon,
-        text: '+9102225299018',
+        text: '+9102228021220',
         type: 'phone',
       },
       {
         icon: LocationOnIcon,
-        text: 'E-11, Station Road, Kurla (east), Mumbai, India',
+        text: ' 4/a, Raj Ratan Palace Iii, Shanker Lane, Kandivli (w), Mumbai, India',
         type: '',
       },
       {
@@ -65,7 +65,7 @@ export const footer: Footer = {
     { label: 'Contact Us', path: Routes.Contact_Us_Page },
     { label: 'Privacy Policy', path: Routes.Privacy_Policy_Page },
   ],
-  copyRight: `© 2019 - 2024 ${meta.title} All Rights Reserved.`,
+  copyRight: `© 2020 - 2024 ${meta.title} All Rights Reserved.`,
   termsCondition: {
     label: 'terms & condition',
     route: '/terms-and-conditions',

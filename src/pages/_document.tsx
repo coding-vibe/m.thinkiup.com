@@ -16,7 +16,7 @@ export default function MyDocument(props: DocumentProps & DocumentHeadTagsProps)
         />
         <DocumentHeadTags {...props} />
       </Head>
-      <body style={{ background: 'linear-gradient(180deg, #F00 0%, #150000 96%'}}>
+      <body style={{ background: 'linear-gradient(180deg, #590000 0%, #001715 100%);'}}>
         <Main />
         <NextScript />
       </body>
